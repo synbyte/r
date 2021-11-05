@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+h1 {
+	font-family: 'Play';
+}
 :root {
 	--card-bg:#181717;
-	background: rgb(30, 54, 54);
+	background: url('https://i.ibb.co/cXDSZ0R/Untitled13-20211104211634.png');
+	background-position: ;
+	
+	margin: 0 auto;
+
+	
 }
 
 body {
@@ -8,22 +17,46 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
+	background: url('https://i.ibb.co/cXDSZ0R/Untitled13-20211104211634.png');
 }
 
 
 .card {
 	background: var(--card-bg);
-	color: rgb(179, 70, 230);
+	color: rgb(223, 178, 43);
 	width:50vw;
 	min-height:40vh;
 	text-align: center;
 	border-radius:15px;
-	box-shadow:0 3px 5px black;
+	box-shadow:0 3px 15px rgb(77, 60, 10);
 	text-shadow: 0 0 3px orangered;
+	padding:25px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:1px solid rgb(223, 178, 43);
 }
 
 input {
 	background:#191919;
 	border-radius:15px;
-	border:1px solid orangered;
+	border:1px solid rgb(199, 132, 9);
+	color:white;
+	text-align: center;
+	padding:5px;
+	margin:7px;
+	box-shadow: 0 0 5px rgb(228, 195, 47),0 0 15px rgb(228, 186, 47);
+	transition: 1s;
+}
+input:focus {
+	outline:none;
+	box-shadow: 0 0 5px orangered, 0 0 25px orangered;
+	transition: 1s;
+}
+#form {
+	display: flex;
+	flex-direction: column;
+
 }

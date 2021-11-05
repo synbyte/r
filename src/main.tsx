@@ -5,7 +5,7 @@ import './index.css'
 import Card from './Card'
 ReactDOM.render(
   <React.StrictMode>
-    <Card>
+    <Card header="Login">
 		
 		</Card>
   </React.StrictMode>,

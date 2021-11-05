@@ -1,8 +1,8 @@
 import * as React from 'react';
 import './index.css'
+import { FormControl, InputGroup } from 'react-bootstrap';
 
 export default function Input(props) {
-	return (<div><label>{props.label}</label>
-		<input></input></div>
+	return (<InputGroup class='mb-3'><FormControl placeholder={props.place}/></InputGroup>
 	)
 }
